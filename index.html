@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+	<head>
+		<title>Mail formu</title>
+		<meta charset="utf-8">
+</head>
+
+<body>
+	<h4> Lütfen bilgilerinizi aşağıya giriniz</h4>
+	<form name="email" action="mailto:esraturkster@gmail.com" enctype="text/plain" method="post">
+		<table>
+			<tr>
+				<td>Ad:</td>
+				<td><input type="text" name="ad" maxlength="40" required="required" autofocus="autofocus"></td>
+			</tr>
+			<tr>
+				<td>Soyad:</td>
+				<td><input type="text" name="soyad" maxlength="40" required="required"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email" required="required"></td>
+			</tr>
+			<tr>
+				<td>İçerik</td>
+				<td><textarea name="ileti" rows="10" cols="50"></textarea></td>
+
+			</tr>
+			<tr>
+				<td><input type="submit" value="gönder"></td>
+				<td><input type="reset" value="iptal"></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
